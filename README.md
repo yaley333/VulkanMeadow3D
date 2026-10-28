@@ -7,7 +7,8 @@
 ![screens/result2.jpg](screens/result2.jpg)
 
 # Запустить проект
-.\VulkanMeadow\build\Release\VulkanMeadow.exe открой папку VulkanMeadow -> build -> Releaseв Проводнике и дважды щёлкни VulkanMeadow.exe.
+.\VulkanMeadow\build\Release\VulkanMeadow.exe 
+Открой папку VulkanMeadow -> build -> Releaseв Проводнике и дважды щёлкни VulkanMeadow.exe.
 
 
 ## Управление
