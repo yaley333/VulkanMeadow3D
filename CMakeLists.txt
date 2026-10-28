@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.24)
+project(VulkanMeadow C)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+find_package(Vulkan REQUIRED)
+find_package(glfw3 CONFIG REQUIRED)
+add_executable(VulkanMeadow src/main.c)
+target_link_libraries(VulkanMeadow PRIVATE Vulkan::Vulkan glfw)
+
+foreach(cfg IN ITEMS RELEASE DEBUG RELWITHDEBINFO MINSIZEREL)
+  get_target_property(GLFW3_DLL glfw IMPORTED_LOCATION_${cfg})
+  if(GLFW3_DLL)
+    add_custom_command(TARGET VulkanMeadow POST_BUILD
+      COMMAND ${CMAKE_COMMAND} -E copy_if_different "${GLFW3_DLL}" "$<TARGET_FILE_DIR:VulkanMeadow>"
+      COMMENT "Copy glfw3.dll to the app output directory"
+      VERBATIM)
+  endif()
+endforeach()
+
+target_compile_definitions(VulkanMeadow PRIVATE GLFW_INCLUDE_VULKAN)
+if(MSVC)
+  target_compile_options(VulkanMeadow PRIVATE /W4)
+else()
+  target_compile_options(VulkanMeadow PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+find_program(GLSLC glslc HINTS "$ENV{VULKAN_SDK}/Bin" "$ENV{VULKAN_SDK}/Bin32")
+if(NOT GLSLC)
+  message(FATAL_ERROR "glslc not found. Install the Vulkan SDK and set VULKAN_SDK.")
+endif()
+set(SHADER_OUT "${CMAKE_CURRENT_BINARY_DIR}/shaders")
+file(MAKE_DIRECTORY "${SHADER_OUT}")
+foreach(SHADER meadow.vert meadow.frag meadow_plant.vert meadow_plant.frag)
+  add_custom_command(OUTPUT "${SHADER_OUT}/${SHADER}.spv"
+    COMMAND "${GLSLC}" "${CMAKE_CURRENT_SOURCE_DIR}/shaders/${SHADER}" -o "${SHADER_OUT}/${SHADER}.spv"
+    DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/shaders/${SHADER}" VERBATIM)
+  list(APPEND SPV_FILES "${SHADER_OUT}/${SHADER}.spv")
+endforeach()
+add_custom_target(Shaders ALL DEPENDS ${SPV_FILES})
+add_dependencies(VulkanMeadow Shaders)
+target_compile_definitions(VulkanMeadow PRIVATE MEADOW_SHADER_DIR="${SHADER_OUT}")

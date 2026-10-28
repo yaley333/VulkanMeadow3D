@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\c2b49be955437f33eb7b6d7ce9e8c9ac\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3E7C26B7-0EC8-39DD-9DF2-6311C1BEEE9C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

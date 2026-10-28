@@ -1,0 +1,58 @@
+^C:\USERS\ADMIN\DOWNLOADS\VULKANMEADOW3D-98F2274DB6D696F54A5523FFBAA7401235B255E5\VULKANMEADOW3D\BUILD\CMAKEFILES\2D620F713EBDF8562ADDD8FF4813ADEA\MEADOW.FRAG.SPV.RULE
+setlocal
+C:\VulkanSDK\1.4.357.0\Bin\glslc.exe C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/shaders/meadow.frag -o C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/shaders/meadow.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMIN\DOWNLOADS\VULKANMEADOW3D-98F2274DB6D696F54A5523FFBAA7401235B255E5\VULKANMEADOW3D\BUILD\CMAKEFILES\2D620F713EBDF8562ADDD8FF4813ADEA\MEADOW.VERT.SPV.RULE
+setlocal
+C:\VulkanSDK\1.4.357.0\Bin\glslc.exe C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/shaders/meadow.vert -o C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/shaders/meadow.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMIN\DOWNLOADS\VULKANMEADOW3D-98F2274DB6D696F54A5523FFBAA7401235B255E5\VULKANMEADOW3D\BUILD\CMAKEFILES\2D620F713EBDF8562ADDD8FF4813ADEA\MEADOW_PLANT.FRAG.SPV.RULE
+setlocal
+C:\VulkanSDK\1.4.357.0\Bin\glslc.exe C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/shaders/meadow_plant.frag -o C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/shaders/meadow_plant.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMIN\DOWNLOADS\VULKANMEADOW3D-98F2274DB6D696F54A5523FFBAA7401235B255E5\VULKANMEADOW3D\BUILD\CMAKEFILES\2D620F713EBDF8562ADDD8FF4813ADEA\MEADOW_PLANT.VERT.SPV.RULE
+setlocal
+C:\VulkanSDK\1.4.357.0\Bin\glslc.exe C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/shaders/meadow_plant.vert -o C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/shaders/meadow_plant.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMIN\DOWNLOADS\VULKANMEADOW3D-98F2274DB6D696F54A5523FFBAA7401235B255E5\VULKANMEADOW3D\BUILD\CMAKEFILES\C2B49BE955437F33EB7B6D7CE9E8C9AC\SHADERS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMIN\DOWNLOADS\VULKANMEADOW3D-98F2274DB6D696F54A5523FFBAA7401235B255E5\VULKANMEADOW3D\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D -BC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build --check-stamp-file C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

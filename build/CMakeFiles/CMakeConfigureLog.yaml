@@ -1,0 +1,2864 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 2:19:03.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\4.4.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\4.4.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\4.4.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.86
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/4.4.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/php/lld-link.com"
+      - "C:/php/lld-link.exe"
+      - "C:/php/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Users/admin/.cargo/bin/lld-link.com"
+      - "C:/Users/admin/.cargo/bin/lld-link.exe"
+      - "C:/Users/admin/.cargo/bin/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/lld-link"
+      - "C:/Python3136/Scripts/lld-link.com"
+      - "C:/Python3136/Scripts/lld-link.exe"
+      - "C:/Python3136/Scripts/lld-link"
+      - "C:/Python3136/lld-link.com"
+      - "C:/Python3136/lld-link.exe"
+      - "C:/Python3136/lld-link"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/lld-link"
+      - "C:/Users/admin/go/bin/lld-link.com"
+      - "C:/Users/admin/go/bin/lld-link.exe"
+      - "C:/Users/admin/go/bin/lld-link"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/lld-link"
+      - "C:/Users/admin/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/admin/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/flutter/bin/lld-link.com"
+      - "C:/flutter/bin/lld-link.exe"
+      - "C:/flutter/bin/lld-link"
+      - "C:/Users/admin/.dotnet/tools/lld-link.com"
+      - "C:/Users/admin/.dotnet/tools/lld-link.exe"
+      - "C:/Users/admin/.dotnet/tools/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/lld-link"
+      - "C:/Users/admin/.lmstudio/bin/lld-link.com"
+      - "C:/Users/admin/.lmstudio/bin/lld-link.exe"
+      - "C:/Users/admin/.lmstudio/bin/lld-link"
+      - "C:/vcpkg/lld-link.com"
+      - "C:/vcpkg/lld-link.exe"
+      - "C:/vcpkg/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/admin/AppData/Local/Unity/bin/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Unity/bin/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Unity/bin/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/VulkanSDK/1.4.357.0/Bin/mt.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/mt.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/php/mt.com"
+      - "C:/php/mt.exe"
+      - "C:/php/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files/Go/bin/mt.com"
+      - "C:/Program Files/Go/bin/mt.exe"
+      - "C:/Program Files/Go/bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Users/admin/.cargo/bin/mt.com"
+      - "C:/Users/admin/.cargo/bin/mt.exe"
+      - "C:/Users/admin/.cargo/bin/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/mt"
+      - "C:/Python3136/Scripts/mt.com"
+      - "C:/Python3136/Scripts/mt.exe"
+      - "C:/Python3136/Scripts/mt"
+      - "C:/Python3136/mt.com"
+      - "C:/Python3136/mt.exe"
+      - "C:/Python3136/mt"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/mt.com"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/mt.exe"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/mt"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/mt.com"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/mt.exe"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/mt"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/mt.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/mt.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/mt"
+      - "C:/Users/admin/go/bin/mt.com"
+      - "C:/Users/admin/go/bin/mt.exe"
+      - "C:/Users/admin/go/bin/mt"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/mt.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/mt.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/mt"
+      - "C:/Users/admin/AppData/Roaming/npm/mt.com"
+      - "C:/Users/admin/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/flutter/bin/mt.com"
+      - "C:/flutter/bin/mt.exe"
+      - "C:/flutter/bin/mt"
+      - "C:/Users/admin/.dotnet/tools/mt.com"
+      - "C:/Users/admin/.dotnet/tools/mt.exe"
+      - "C:/Users/admin/.dotnet/tools/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/mt"
+      - "C:/Users/admin/.lmstudio/bin/mt.com"
+      - "C:/Users/admin/.lmstudio/bin/mt.exe"
+      - "C:/Users/admin/.lmstudio/bin/mt"
+      - "C:/vcpkg/mt.com"
+      - "C:/vcpkg/mt.exe"
+      - "C:/vcpkg/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/mt"
+      - "C:/Users/admin/AppData/Local/Unity/bin/mt.com"
+      - "C:/Users/admin/AppData/Local/Unity/bin/mt.exe"
+      - "C:/Users/admin/AppData/Local/Unity/bin/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/VulkanMeadow/bin/"
+      - "C:/Program Files (x86)/VulkanMeadow/sbin/"
+      - "C:/Program Files (x86)/VulkanMeadow/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.357.0/Bin/rc.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/rc.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/php/rc.com"
+      - "C:/php/rc.exe"
+      - "C:/php/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/Go/bin/rc.com"
+      - "C:/Program Files/Go/bin/rc.exe"
+      - "C:/Program Files/Go/bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Users/admin/.cargo/bin/rc.com"
+      - "C:/Users/admin/.cargo/bin/rc.exe"
+      - "C:/Users/admin/.cargo/bin/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/rc"
+      - "C:/Python3136/Scripts/rc.com"
+      - "C:/Python3136/Scripts/rc.exe"
+      - "C:/Python3136/Scripts/rc"
+      - "C:/Python3136/rc.com"
+      - "C:/Python3136/rc.exe"
+      - "C:/Python3136/rc"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/rc.com"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/rc.exe"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/rc"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/rc.com"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/rc.exe"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/rc"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/rc.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/rc.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/rc"
+      - "C:/Users/admin/go/bin/rc.com"
+      - "C:/Users/admin/go/bin/rc.exe"
+      - "C:/Users/admin/go/bin/rc"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/rc.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/rc.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/rc"
+      - "C:/Users/admin/AppData/Roaming/npm/rc.com"
+      - "C:/Users/admin/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/flutter/bin/rc.com"
+      - "C:/flutter/bin/rc.exe"
+      - "C:/flutter/bin/rc"
+      - "C:/Users/admin/.dotnet/tools/rc.com"
+      - "C:/Users/admin/.dotnet/tools/rc.exe"
+      - "C:/Users/admin/.dotnet/tools/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/rc"
+      - "C:/Users/admin/.lmstudio/bin/rc.com"
+      - "C:/Users/admin/.lmstudio/bin/rc.exe"
+      - "C:/Users/admin/.lmstudio/bin/rc"
+      - "C:/vcpkg/rc.com"
+      - "C:/vcpkg/rc.exe"
+      - "C:/vcpkg/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/rc"
+      - "C:/Users/admin/AppData/Local/Unity/bin/rc.com"
+      - "C:/Users/admin/AppData/Local/Unity/bin/rc.exe"
+      - "C:/Users/admin/AppData/Local/Unity/bin/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/VulkanMeadow/bin/rc.com"
+      - "C:/Program Files (x86)/VulkanMeadow/bin/rc.exe"
+      - "C:/Program Files (x86)/VulkanMeadow/bin/rc"
+      - "C:/Program Files (x86)/VulkanMeadow/sbin/rc.com"
+      - "C:/Program Files (x86)/VulkanMeadow/sbin/rc.exe"
+      - "C:/Program Files (x86)/VulkanMeadow/sbin/rc"
+      - "C:/Program Files (x86)/VulkanMeadow/rc.com"
+      - "C:/Program Files (x86)/VulkanMeadow/rc.exe"
+      - "C:/Program Files (x86)/VulkanMeadow/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/VulkanMeadow"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/VulkanMeadow"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:120 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-vghro2"
+      binary: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-vghro2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-vghro2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_53655.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 2:19:04.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghro2\\cmTC_53655.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghro2\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_53655.dir\\Debug\\cmTC_53655.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_53655.dir\\Debug\\cmTC_53655.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_53655.dir\\Debug\\cmTC_53655.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_53655.dir\\Debug\\\\" /Fd"cmTC_53655.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_53655.dir\\Debug\\\\" /Fd"cmTC_53655.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghro2\\Debug\\cmTC_53655.exe" /INCREMENTAL /ILK:"cmTC_53655.dir\\Debug\\cmTC_53655.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-vghro2/Debug/cmTC_53655.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-vghro2/Debug/cmTC_53655.lib" /MACHINE:X64  /machine:x64 cmTC_53655.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_53655.vcxproj -> C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghro2\\Debug\\cmTC_53655.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_53655.dir\\Debug\\cmTC_53655.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_53655.dir\\Debug\\cmTC_53655.tlog\\cmTC_53655.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghro2\\cmTC_53655.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.73
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:288 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vghro2\\Debug\\cmTC_53655.exe" /INCREMENTAL /ILK:"cmTC_53655.dir\\Debug\\cmTC_53655.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-vghro2/Debug/cmTC_53655.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-vghro2/Debug/cmTC_53655.lib" /MACHINE:X64  /machine:x64 cmTC_53655.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:334 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:453 (find_path)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "path"
+    variable: "Vulkan_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan/vulkan.h"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/include/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/VulkanMeadow/include/"
+      - "C:/Program Files (x86)/VulkanMeadow/"
+    found: "C:/VulkanSDK/1.4.357.0/include/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/VulkanMeadow"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/VulkanMeadow"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:460 (find_library)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "library"
+    variable: "Vulkan_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan-1"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/lib/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/VulkanMeadow/lib/"
+      - "C:/Program Files (x86)/VulkanMeadow/"
+      - "C:/Program Files (x86)/VulkanMeadow/bin/"
+      - "/bin/"
+    found: "C:/VulkanSDK/1.4.357.0/Lib/vulkan-1.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/VulkanMeadow"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/VulkanMeadow"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/VulkanMeadow/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:493 (find_program)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/bin/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/VulkanMeadow/bin/"
+      - "C:/Program Files (x86)/VulkanMeadow/sbin/"
+      - "C:/Program Files (x86)/VulkanMeadow/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.357.0/bin/glslc.com"
+    found: "C:/VulkanSDK/1.4.357.0/Bin/glslc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/VulkanMeadow"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/VulkanMeadow"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:501 (find_program)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/bin/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/VulkanMeadow/bin/"
+      - "C:/Program Files (x86)/VulkanMeadow/sbin/"
+      - "C:/Program Files (x86)/VulkanMeadow/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.357.0/bin/glslangValidator.com"
+    found: "C:/VulkanSDK/1.4.357.0/Bin/glslangValidator.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/VulkanMeadow"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/VulkanMeadow"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:6 (find_package)"
+    name: "glfw3"
+    configs:
+      -
+        filename: "glfw3.cps"
+        kind: "cps"
+      -
+        filename: "glfw3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "glfw3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glfw3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/pkgRedirects/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/pkgRedirects/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/pkgRedirects/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/pkgRedirects/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/VulkanSDK/1.4.357.0/Bin/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/VulkanSDK/1.4.357.0/Bin/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/VulkanSDK/1.4.357.0/Bin/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/VulkanSDK/1.4.357.0/Bin/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.cargo/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.cargo/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.cargo/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.cargo/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python3136/Scripts/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python3136/Scripts/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python3136/Scripts/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python3136/Scripts/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python3136/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python3136/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python3136/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python3136/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Pub/Cache/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Pub/Cache/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Pub/Cache/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Pub/Cache/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/go/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/go/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/go/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/go/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/flutter/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/flutter/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/flutter/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/flutter/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Antigravity/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Antigravity/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Antigravity/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Antigravity/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.lmstudio/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.lmstudio/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.lmstudio/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.lmstudio/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/vcpkg/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/vcpkg/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/vcpkg/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/vcpkg/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/VulkanMeadow"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/VulkanMeadow"
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "vcpkg_installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-sytnqh"
+      binary: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-sytnqh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-sytnqh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ad4e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 2:19:48.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\cmTC_ad4e2.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_ad4e2.dir\\Debug\\cmTC_ad4e2.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_ad4e2.dir\\Debug\\cmTC_ad4e2.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_ad4e2.dir\\Debug\\cmTC_ad4e2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /std:c11 /Fo"cmTC_ad4e2.dir\\Debug\\\\" /Fd"cmTC_ad4e2.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /std:c11 /Fo"cmTC_ad4e2.dir\\Debug\\\\" /Fd"cmTC_ad4e2.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\src.c"
+          src.c
+        C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\src.c(1,1): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\cmTC_ad4e2.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\cmTC_ad4e2.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\cmTC_ad4e2.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\src.c(1,1): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sytnqh\\cmTC_ad4e2.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "vcpkg_installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-gicf3j"
+      binary: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-gicf3j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-gicf3j'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80f46.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 2:19:49.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\cmTC_80f46.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_80f46.dir\\Debug\\cmTC_80f46.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_80f46.dir\\Debug\\cmTC_80f46.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_80f46.dir\\Debug\\cmTC_80f46.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /std:c11 /Fo"cmTC_80f46.dir\\Debug\\\\" /Fd"cmTC_80f46.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /std:c11 /Fo"cmTC_80f46.dir\\Debug\\\\" /Fd"cmTC_80f46.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\Debug\\cmTC_80f46.exe" /INCREMENTAL /ILK:"cmTC_80f46.dir\\Debug\\cmTC_80f46.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-gicf3j/Debug/cmTC_80f46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-gicf3j/Debug/cmTC_80f46.lib" /MACHINE:X64  /machine:x64 cmTC_80f46.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\cmTC_80f46.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\cmTC_80f46.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\cmTC_80f46.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gicf3j\\cmTC_80f46.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.51
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "vcpkg_installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-84a94l"
+      binary: "C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-84a94l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-84a94l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9c37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 2:19:50.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\cmTC_d9c37.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_d9c37.dir\\Debug\\cmTC_d9c37.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_d9c37.dir\\Debug\\cmTC_d9c37.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_d9c37.dir\\Debug\\cmTC_d9c37.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /std:c11 /Fo"cmTC_d9c37.dir\\Debug\\\\" /Fd"cmTC_d9c37.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /std:c11 /Fo"cmTC_d9c37.dir\\Debug\\\\" /Fd"cmTC_d9c37.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\Debug\\cmTC_d9c37.exe" /INCREMENTAL /ILK:"cmTC_d9c37.dir\\Debug\\cmTC_d9c37.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-84a94l/Debug/cmTC_d9c37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/CMakeScratch/TryCompile-84a94l/Debug/cmTC_d9c37.lib" /MACHINE:X64  /machine:x64 cmTC_d9c37.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\cmTC_d9c37.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\cmTC_d9c37.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\cmTC_d9c37.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [C:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\build\\CMakeFiles\\CMakeScratch\\TryCompile-84a94l\\cmTC_d9c37.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.49
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:15 (find_program)"
+    mode: "program"
+    variable: "GLSLC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/bin/"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/sbin/"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/VulkanSDK/1.4.357.0/Bin32/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/php/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin/"
+      - "C:/Python3136/Scripts/"
+      - "C:/Python3136/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/admin/AppData/Local/Pub/Cache/bin/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/flutter/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/admin/.lmstudio/bin/"
+      - "C:/vcpkg/"
+      - "C:/Users/admin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/admin/AppData/Local/Unity/bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/e646868227/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-win32-x64/ripgrep/bin/win32-x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/VulkanMeadow/bin/"
+      - "C:/Program Files (x86)/VulkanMeadow/sbin/"
+      - "C:/Program Files (x86)/VulkanMeadow/"
+    searched_directories:
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/bin/glslc.com"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/bin/glslc.exe"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/bin/glslc"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/sbin/glslc.com"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/sbin/glslc.exe"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/sbin/glslc"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/glslc.com"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/glslc.exe"
+      - "c:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/glslc"
+      - "C:/VulkanSDK/1.4.357.0/Bin/glslc.com"
+    found: "C:/VulkanSDK/1.4.357.0/Bin/glslc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:\\Users\\admin\\Downloads\\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\\VulkanMeadow3D\\vcpkg_installed\\x64-windows"
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\php"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot\\bin"
+        - "C:\\Python3136\\Scripts\\"
+        - "C:\\Python3136\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\admin\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\admin\\.lmstudio\\bin"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\vcpkg"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\admin\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+        - "c:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\e646868227\\resources\\app\\node_modules.asar.unpacked\\@github\\copilot-sdk-win32-x64\\ripgrep\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/VulkanMeadow"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/VulkanMeadow"
+...

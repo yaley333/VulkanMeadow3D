@@ -1,0 +1,41 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Linker/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Linker/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/CMakeLists.txt
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/4.4.0-rc2/CMakeCCompiler.cmake
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/4.4.0-rc2/CMakeRCCompiler.cmake
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/4.4.0-rc2/CMakeSystem.cmake
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/share/glfw3/glfw3Config.cmake
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/share/glfw3/glfw3Targets-release.cmake
+C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/vcpkg_installed/x64-windows/share/glfw3/glfw3Targets.cmake

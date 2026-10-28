@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOWNLOADS\VULKANMEADOW3D-98F2274DB6D696F54A5523FFBAA7401235B255E5\VULKANMEADOW3D\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D -BC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build --check-stamp-file C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

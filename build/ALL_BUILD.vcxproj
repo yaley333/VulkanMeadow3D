@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D33E789F-8828-35D8-9A8C-0FD5DD508D6C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D -BC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build --check-stamp-file C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeCCompiler.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeRCCompiler.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeSystem.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D -BC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build --check-stamp-file C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeCCompiler.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeRCCompiler.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeSystem.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D -BC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build --check-stamp-file C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeCCompiler.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeRCCompiler.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeSystem.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D -BC:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build --check-stamp-file C:/Users/admin/Downloads/VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5/VulkanMeadow3D/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeCCompiler.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeRCCompiler.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\4.4.0-rc2\CMakeSystem.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\vcpkg_installed\x64-windows\share\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\ZERO_CHECK.vcxproj">
+      <Project>{1607FE99-3A04-38A4-A80E-31274C75AC45}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\Shaders.vcxproj">
+      <Project>{BF1796EC-8A7D-3650-BB1C-0FE7E7DF2B67}</Project>
+      <Name>Shaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\build\VulkanMeadow.vcxproj">
+      <Project>{E7BDA085-A3A9-32FA-9263-5C17B7BBFE18}</Project>
+      <Name>VulkanMeadow</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

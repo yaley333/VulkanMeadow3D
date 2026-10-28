@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Downloads\VulkanMeadow3D-98f2274db6d696f54a5523ffbaa7401235b255e5\VulkanMeadow3D\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67EDF9C4-24E4-3565-9206-2EDF7C7C1653}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
