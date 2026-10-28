@@ -8,6 +8,7 @@
 
 # Запустить проект
 .\VulkanMeadow\build\Release\VulkanMeadow.exe 
+
 Открой папку VulkanMeadow -> build -> Releaseв Проводнике и дважды щёлкни VulkanMeadow.exe.
 
 
