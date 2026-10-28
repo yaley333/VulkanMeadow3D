@@ -7,6 +7,8 @@
 ![screens/result2.jpg](screens/result2.jpg)
 
 # Запустить проект
+К сожедению вы не можете просто запустить exe, вам самим придется собрать build, вы можете это сделать через любую нейросеть вроде Copilot внутри VS CODE, дайте нейронке задачу: У меня не открыается VulkanMeadow\build\Release\VulkanMeadow.exe, собери новый build, если на пк не установлены какие-либо из требуемых компонентов, установи их, в конце запусти проект. Поставьте для нейросети в permission (обычно эта кнопка в самым низу чата с ИИ), Allow All, чтобы не подтверждать каждое действие вручную.
+
 .\VulkanMeadow\build\Release\VulkanMeadow.exe 
 
 Открой папку VulkanMeadow -> build -> Releaseв Проводнике и дважды щёлкни VulkanMeadow.exe.
